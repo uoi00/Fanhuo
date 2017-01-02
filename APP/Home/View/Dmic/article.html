@@ -1,0 +1,15 @@
+<div>
+    <h3>文章发表</h3>
+    <form action="__APP__/Home/Dmic/send" method="post" onsubmit="return send()">
+        <input type="text" id="titl" name="titl" class="form-control atc" placeholder="标题">
+        <select class="type form-control atc" name="type">
+            <option value="1"> 日志 </option>
+            <option value="2"> 文章 </option>
+        </select>
+        <textarea name="kcontent" id="atc_cont" style="width:100%;max-width:100%;height:200px;visibility:hidden;"></textarea>
+        <input type="submit" class="btn btn-info atc" value="提交" style="float: right;margin-right:7%">
+        <a href="__APP__/Home/Dmic/index" class="btn btn-default atc" style="float:right;margin-right: 7px">放弃</a>
+    </form>
+</div>
+
+

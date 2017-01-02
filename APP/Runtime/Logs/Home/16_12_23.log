@@ -1,0 +1,130 @@
+[ 2016-12-23T17:40:45+08:00 ] ::1 /Fanhuo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009683s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005844s ]
+
+[ 2016-12-23T17:40:45+08:00 ] ::1 /Fanhuo/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2016-12-23T17:40:54+08:00 ] ::1 /Fanhuo/index.php/Home/Index/ck_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2016-12-23T17:40:56+08:00 ] ::1 /Fanhuo/index.php/Home/Index/land
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.075944s ]
+SQL: SELECT `id`,`name`,`pwd` FROM `user` WHERE ( user = 'uoi00@qq.com' )  [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-12-23T17:40:56+08:00 ] ::1 /Fanhuo/index.php/Home/Index/ck_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2016-12-23T17:40:57+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-12-23T17:40:59+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.046666s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 58 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.019613s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 or uid= 4 or uid= 5 or uid= 6 or uid= 7 ) ORDER BY ctime desc LIMIT 0,5   [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009337s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000519s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000648s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000438s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.001238s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000371s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002718s ]
+

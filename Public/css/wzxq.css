@@ -1,0 +1,35 @@
+.atc{
+    margin-top: 10px;
+    border: 2px solid #b9def0;
+}
+.atc_head{
+    border: 2px solid #b9def0;
+    padding: 4px;
+}
+.atc_tit{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: blue;
+    margin-left: 5px;
+}
+.atc_date{
+    font-size: 1.2rem;
+    color: grey;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.atc_cont{
+    padding: 10px;
+    border: 2px solid #b9def0;
+}
+.atc_btm{
+    padding: 10px;
+    border: 2px solid #b9def0;
+}
+.atc_a:hover{
+    text-decoration-line: none;
+}
+.atc_a{
+    font-size: 1.6rem;
+    margin-left: 40px;
+}

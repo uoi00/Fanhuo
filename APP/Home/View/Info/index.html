@@ -1,0 +1,70 @@
+<div class="tab" id="tab">
+    <div class="tab-nav j-tab-nav">
+        <button class="btn btn-info" id="my_info" class="current">我的信息</button>
+        <button class="btn btn-info" id="my_look">我的关注</button>
+    </div>
+    <div class="tab-con">
+        <div class="j-tab-con">
+            <div class="tab-con-item" style="display:block;">
+                <div class="frame">
+                    <div class="header">
+                        <span class="tit">个人信息</span>
+                        <span id="edit"><a id="edit_info" href="javascript:;">修改</a></span>
+                    </div>
+                    <div class="body">
+                        <table>
+                            <tr>
+                                <td class="td1">昵称：</td><td class="td2">{$info.name}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">账号：</td><td class="td2">{$info.user}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">I D：</td><td class="td2">{$info.id}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">性别：</td><td class="td2">{$info.sex}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">生日：</td><td class="td2">{$info.birth}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">电话：</td><td class="td2">{$info.tel}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">住址：</td><td class="td2">{$info.addr}</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">工作：</td><td class="td2">{$info.job}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-con-item">
+                <div class="frame">
+                    <span class="tit">账号搜索</span>
+                    <div class="input-group" id="sousuo">
+                        <label class="input-group-addon">账号</span></label>
+                        <input type="text" class="form-control" id="mail" name="mail" placeholder="昵称、邮箱">
+                    </div>
+                    <div id="mail_log" class="text-danger"></div>
+                    <button id="sub" class="btn btn-info">提交</button>
+                    <div class="tit">我的关注</div>
+                    <div id="my_looks">
+                        <foreach name="data" item="vo">
+                            <div class='looks'>
+                                <div class='looks_head'>{$vo.name}({$vo.user})</div>
+                                <div class='looks_btm' id="{$vo.id}">
+                                    <a href='javascript:;' class="thisinfo">个人信息</a>
+                                    <a href='javascript:;' class="unlook">取消关注</a>
+                                </div>
+                            </div>
+                        </foreach>
+                        {$page}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

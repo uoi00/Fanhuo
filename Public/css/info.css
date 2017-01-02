@@ -1,0 +1,77 @@
+.frame{
+    margin-top: 20px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+}
+.tit{
+    font-size: 2.4rem;
+    margin-left: 5px;
+}
+#edit{
+    float: right;
+    font-size: 1.6rem;
+    position: relative;
+    right: 5%;
+}
+td{
+    height: 40px;
+}
+.td1{
+    width: 80px;
+    text-align: center;
+}
+.td2{
+    width: auto;
+    padding-left: 10px;
+}
+#sousuo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#sub{
+    margin-bottom: 10px;
+
+}
+.looks{
+    height: 90px;
+    background-color: limegreen;
+    margin-top: 8px;
+    border: solid 2px mediumslateblue;
+}
+.looks_head{
+    width: 100%;
+    height: 40px;
+    font-size: 2.2rem;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+.looks_btm{
+    width: 100%;
+}
+.looks_btm a{
+    margin-left: 30px;
+    font-size: 1.8rem;
+}
+
+.tab {
+    position: relative;
+    overflow: hidden;
+}
+.tab-nav {
+    overflow: hidden;
+}
+.tab-nav button {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.tab-con {
+    position: relative;
+    overflow: hidden;
+}
+.tab-con-item {
+    display: none;
+}

@@ -1,0 +1,1180 @@
+[ 2016-10-01T20:27:59+08:00 ] ::1 /Fanhuo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010977s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005312s ]
+
+[ 2016-10-01T20:27:59+08:00 ] ::1 /Fanhuo/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-10-01T20:28:12+08:00 ] ::1 /Fanhuo/index.php/Home/Index/ck_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-10-01T20:28:19+08:00 ] ::1 /Fanhuo/index.php/Home/Index/ck_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-10-01T20:28:20+08:00 ] ::1 /Fanhuo/index.php/Home/Index/land
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028642s ]
+SQL: SELECT `id`,`name`,`pwd` FROM `user` WHERE ( user = 'uoi00@qq.com' )  [ RunTime:0.001241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-10-01T20:28:20+08:00 ] ::1 /Fanhuo/index.php/Home/Index/ck_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-10-01T20:28:21+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-10-01T20:28:22+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.008233s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.009270s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005541s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000445s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000467s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000227s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000237s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000190s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-10-01T21:51:32+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-10-01T21:51:33+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.004134s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004088s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004858s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000330s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000286s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000218s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000196s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000174s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-10-01T21:51:35+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8] Undefined index: mail E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 102 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.011361s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000415s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004428s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array [ RunTime:0.000308s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-10-01T21:52:51+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000165s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005130s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array [ RunTime:0.000269s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-10-01T21:56:24+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004996s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array [ RunTime:0.000246s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-10-01T21:56:59+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-10-01T21:57:00+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.004030s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003981s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003674s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000398s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000202s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000190s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000175s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000182s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-10-01T21:57:02+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003813s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array [ RunTime:0.000217s ]
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = Array
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-10-01T21:57:38+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004160s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = uoi475@163.com [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com' at line 1
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = uoi475@163.com
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-10-01T21:58:30+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004124s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = uoi475@163.com [ RunTime:0.000178s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com' at line 1
+ [ SQL语句 ] : select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = uoi475@163.com
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-10-01T21:59:06+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005239s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where 'user.id = info.id and user.id = uoi475@163.com' [ RunTime:0.001185s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-10-01T21:59:11+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004581s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where 'user.id = info.id and user.id = uoi475@163.com' [ RunTime:0.000354s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-10-01T22:01:56+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004072s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = 'uoi475@163.com' [ RunTime:0.000332s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-10-01T22:03:53+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000156s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000216s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004533s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.id = 'Array' [ RunTime:0.000314s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-10-01T22:07:43+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.001122s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.001190s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012619s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'Array' [ RunTime:0.000942s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2016-10-01T22:07:47+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E6%B7%B7%E9%AD%82(uoi00@qq.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000178s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004536s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'Array' [ RunTime:0.000361s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-10-01T22:08:21+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E6%B7%B7%E9%AD%82(uoi00@qq.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000144s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000190s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+NOTIC: [8] Array to string conversion E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004307s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'Array' [ RunTime:0.001050s ]
+NOTIC: [8] Undefined offset: 0 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: aa E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2016-10-01T22:08:43+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E6%B7%B7%E9%AD%82(uoi00@qq.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000216s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000315s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005625s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'uoi00@qq.com' [ RunTime:0.000380s ]
+NOTIC: [8] Undefined offset: 1 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-10-01T23:21:17+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000543s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.001599s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-10-01T23:21:19+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.006670s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005944s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005247s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000545s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000321s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000257s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000294s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000275s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-10-01T23:28:29+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000268s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000351s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 48 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 52 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 55 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 56 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 59 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 60 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-10-01T23:28:31+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.008527s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.008330s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003816s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000274s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000212s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000170s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000165s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000158s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-10-01T23:29:37+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000352s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000334s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 48 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 52 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 55 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 56 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 59 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 60 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-10-01T23:29:38+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.009351s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.003981s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004059s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000278s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000235s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000232s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000271s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000245s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-10-01T23:30:35+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000371s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000423s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 54 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 58 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 61 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 62 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2016-10-01T23:30:36+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.008058s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.009905s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009220s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000704s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000492s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000702s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000797s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000511s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-10-01T23:31:13+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000407s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000380s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 54 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 58 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 61 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 62 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-10-01T23:31:14+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.016532s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006735s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004511s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000316s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000222s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000208s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000207s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000259s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-10-01T23:31:52+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000336s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000403s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 57 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 61 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 64 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 68 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-10-01T23:31:53+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.012017s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004136s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003645s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000251s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000165s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000155s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000251s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000139s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-10-01T23:32:18+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000384s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000387s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 58 行.
+NOTIC: [8] Undefined variable: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 62 行.
+NOTIC: [8] Undefined variable: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined variable: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined variable: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+NOTIC: [8] Undefined variable: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 70 行.
+NOTIC: [8] Undefined variable: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-10-01T23:32:19+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.016257s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.008120s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009516s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000816s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000577s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000449s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000471s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000461s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-10-01T23:37:15+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000277s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000352s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015739s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'uoi475@163.com' [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 58 行.
+NOTIC: [8] Undefined index: user E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 59 行.
+NOTIC: [8] Undefined index: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 62 行.
+NOTIC: [8] Undefined index: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined index: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined index: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+NOTIC: [8] Undefined index: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 70 行.
+NOTIC: [8] Undefined index: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2016-10-01T23:37:16+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.008677s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006060s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004369s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000325s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000280s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000236s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000284s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000240s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-10-01T23:38:15+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000299s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.000360s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016175s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'uoi475@163.com' [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 58 行.
+NOTIC: [8] Undefined index: user E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 59 行.
+NOTIC: [8] Undefined index: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 62 行.
+NOTIC: [8] Undefined index: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 65 行.
+NOTIC: [8] Undefined index: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined index: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 69 行.
+NOTIC: [8] Undefined index: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 70 行.
+NOTIC: [8] Undefined index: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-10-01T23:38:16+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.011941s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004035s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004273s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000327s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000271s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000248s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000225s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000244s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-10-01T23:44:03+08:00 ] ::1 /Fanhuo/index.php/Home/Info/this_info?mail=%E7%84%95%E7%81%AB(uoi475@163.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\InfoController.class.php 第 6 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM user,info [ RunTime:0.000286s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'info' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,info
+SQL: SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' )  [ RunTime:0.001025s ]
+ERR: 1054:Unknown column 'id_u' in 'field list'
+ [ SQL语句 ] : SELECT `id_u` FROM `user`,`info` WHERE ( id_a = '' ) 
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015084s ]
+SQL: select user.id,user.user,user.name,info.sex,info.birth,info.tel,info.job from `user`,`info` where user.id = info.id and user.user = 'uoi475@163.com' [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: name E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 59 行.
+NOTIC: [8] Undefined index: user E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 60 行.
+NOTIC: [8] Undefined index: id E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 63 行.
+NOTIC: [8] Undefined index: sex E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 66 行.
+NOTIC: [8] Undefined index: birth E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 67 行.
+NOTIC: [8] Undefined index: tel E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 70 行.
+NOTIC: [8] Undefined index: addr E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 71 行.
+NOTIC: [8] Undefined index: job E:\WAMP\www\Fanhuo\APP\Runtime\Cache\Home\84995aad4dd7a02da2da2a48d25bf1cd.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-10-01T23:44:04+08:00 ] ::1 /Fanhuo/index.php/Home/Dmic/get_atc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\DmicController.class.php 第 5 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMP\www\Fanhuo\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `look` [ RunTime:0.012959s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 49 行.
+SQL: SELECT `id_u` FROM `look` WHERE ( id_a = '1' )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005179s ]
+SQL: SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 or uid= 2 or uid= 3 ) LIMIT 5   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004263s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '3' )  [ RunTime:0.000308s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000266s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000229s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000240s ]
+SQL: SELECT `name`,`user` FROM `user` WHERE ( id = '1' )  [ RunTime:0.000241s ]
+NOTIC: [8] Undefined offset: 5 E:\WAMP\www\Fanhuo\APP\Home\Controller\ContController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+

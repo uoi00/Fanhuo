@@ -1,0 +1,156 @@
+﻿现在算是简单的完工了吧，当然只是简单要是真正的还差的远呢，不论是从界面还是功能都需要继续努力。
+
+需要完善的：
+文章的 转载 评论 点赞 还有被省略的 举报
+信息的 修改 分页的美化
+还有整个 消息模块还没做呢
+还有数据库的完善 主页 唯一 外键 
+
+额，还差太多了。   /2016-10-06 23:59
+
+************************************************************************
+user:   id user pwed ctime 
+info:   id sex birth addr tel email
+group:  id uid name
+friend: uid gid user name
+pics: id uid name ctime 
+pic: id pid name url ctime
+article: id uid title ctime body img
+
+************************************************************************
+博客内容：
+发表： 文章 相册
+	发表 获取文章(全部) 我的文章 我的日志 
+
+消息： 留言 发表 系统 
+
+信息： 
+	个人 查看 修改 
+	关注(好友)
+		现有关注 添加关注 取消关注
+		<取消关注 留言 传信>
+	尽管你不乐意，但世间还是充满了套路.哈哈！！！！
+
+文章分类： 生活 娱乐 艺术 技术 旅游 军事 科学 经济 政治 其他 文化
+************************************************************************
+补充notepade++ 的语言库： 进入安装目录 ..Notepad++\plugins\APIs中就是notepad++的语言提示文件。其中php 的是php.xml。可以通过<KeyWord name="private"/>的方式将自己想要的候选词放入进去。
+
+************************************************************************
+使用js获取服务器地址：（http://localhost/Fanhuo/index.php/Home/Index/index）
+window.location.pathname  ----/Fanhuo/index.php/Home/Index/index
+window.location.host / hostname   ---- localhost
+href ---- URL全地址
+
+************************************************************************
+在使用TP连接数据是需要配置APP\Common\Conf目录下的config.php文件
+内容如下： 'DB_TYPE'=>'mysql',
+    'DB_HOST'=>'localhost',
+    'DB_NAME'=>'fanhou',
+    'DB_USER'=>'root',
+    'DB_PWD'=>'123123',
+    'DB_PORT'=>'3306',
+    'TAG_NESTED_LEVEL' =>5,
+    'TMPL_PARSE_STRING'  =>array(
+        '__UPLOAD__' => '/Uploads', // 增加新的上传路径替换规则
+    )
+
+************************************************************************
+使用tp发送邮件
+1、将phpmailer文件夹复制到：ThinkPHP\Library\Vendor目录下。
+2、在ThinkPHP\Common\functions.php目录下，放入写好的function.php文件，内容如下：
+
+function sendmail($to,$title,$body){
+    Vendor('PHPMailer.PHPMailerAutoload');
+    $phpmailer = new PHPMailer();
+	$phpmailer->IsSMTP();  // 用smtp协议来发
+	$phpmailer->Host = 'smtp.qq.com';
+	$phpmailer->SMTPAuth = true;
+	$phpmailer->Username = 'uoi00';
+	$phpmailer->Password = 'qulnxsnjppqvijbd';
+	$phpmailer->CharSet='UTF-8';
+	// 可以发信了
+	$phpmailer->From = 'uoi00@qq.com';
+	$phpmailer->FromName = 'uoi00';
+	$phpmailer->Subject = 'test';
+	$phpmailer->Body = '1231 asfa aaaa';
+	//设置收信人
+	$phpmailer->AddAddress('248959962@qq.com','248');
+	// 发信
+	if(!$phpmailer->send()){
+		echo "邮件错误信息: " . $phpmailer->ErrorInfo;
+	}else{
+		echo 'ok';
+	}
+}
+
+
+************************************************************************
+tp验证码
+$this->reset && session($key, null);  //$this->reset ？ session($key, null)：1;
+可以理解为一个if语句。
+if ($this->reset) {
+    session($key, null);
+}
+*************************************************************************
+
+TP开启事务
+$mod =new Model('user');
+$mod->startTrans();
+$mod->rollback();
+$mod->rollback();
+
+**************************************************************************
+
+TP查询特定字段
+
+$rst = $mod -> field('id,pwd')->where("user = $user") ->select();
+
+**************************************************************************
+JSON的传递
+PHP页面：多维数组需要逐层转化然后输出给js页面【json_encode($dt)】
+for ($i = 0; $dt = $a[$i]; $i++) {
+    $aa[$i] = json_encode($dt);
+}
+echo json_encode($aa);
+JS页面：需要多层解析后才能使用
+var a = JSON.parse(msg);
+for(i=0;a[i];i++) {
+	var json = JSON.parse(a[i]);
+	ccc = json['psid'] + json['name'];
+}
+**************************************************************************
+foreach函数的赋值问题
+foreach($a as $key=>$val){
+	$val = 55; ##使用$val是无法赋值的 赋值需要用$a[$key]
+}
+**************************************************************************
+js向目标元素中添加新的元素
+使用 append属性
+例如 $("#id").append('<button></button>')
+**************************************************************************
+class 按钮问题
+有7个class为btn的按钮，ID分别是1到7，当点击其中一个时怎么确定该点击按钮的ID??
+	答：$(".btn").click(function(){
+		console.log($(this).attr("id"));
+	});
+	
+**************************************************************************
+tp使用布局
+layout('Layout/public'); //使用layout布局 并使用/app/home/viwe/Layout/目录下的public模板
+$this->assign('title',$title);//模板标题
+$this->assign('css_name',$css_name);//要引入的css文件--数组
+$this->assign('js_file',$js_file);//要引入的js文件--数组
+$this->assign('js_cont',$js_cont);//需要附加的js代码
+$this->display($mod);//要渲染的页面
+
+***************************************************************************
+文章转发
+如下是文章的数据结构：
+article: id uid title ctime body
+需要在上边再加一个 转发的数据项即可 不是转发的文章为空，转发的文章内容为文章原有者的id
+
+****************************************************************************
+数据库order by加limit用法
+SELECT `id`,`uid`,`title`,`body`,`ctime`,`care` FROM `article` WHERE ( uid=1 ) ORDER BY ctime desc LIMIT 0,3
+只使用limit的用法
+select user.id,user.user,user.name from look,user where ( user.id = look.id_u and look.id_a = 1 ) limit 0 , 5

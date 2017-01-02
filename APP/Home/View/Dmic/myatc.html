@@ -1,0 +1,22 @@
+<a class="btn btn-info" href="__APP__/Home/Dmic/index">好友动态</a>
+<a class="btn btn-info" href="__APP__/Home/Dmic/article">发表文章</a>
+<a class="btn btn-info" href="__APP__/Home/Dmic/my_atc">我的文章</a>
+<div id="atc_frame">
+    <foreach name="data" item="vo">
+        <div class="article">
+            <div class="atc_head">
+                <div class="atc_name">
+                    {$vo.title}
+                </div>
+                <div class="atc_time">{$vo.ctime}</div>
+            </div>
+            <hr>
+            <div class="atc_body">
+                {$vo.body}
+            </div>
+            <div class="atc_btm">
+                <button class="btn btn-xs btn-danger btndel" id="{$vo.id}">删除</button>
+            </div>
+        </div>
+    </foreach>
+</div>

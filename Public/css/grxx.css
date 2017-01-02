@@ -1,0 +1,15 @@
+/*个人信息*/
+table{
+    border: solid 1px lightblue;
+}
+td{
+    height: 40px;
+    text-align: center;
+    border: solid 1px lightblue;
+}
+.td1{
+    width: 120px;
+}
+.td2{
+    width: 280px;
+}
